@@ -94,9 +94,9 @@ int main() {
     empresa.set_potencia_painel(potencia_painel);
 
     // Solicitando informações do usuário
-    cout << "Potencia mensal kwh: " << endl;
+    cout << "Potencia mensal kwh: ";
     cin >> potencia_imovel;
-    cout << "Gasto mensal em R$: " << endl;
+    cout << "Gasto mensal em R$: ";
     cin >> valor_mensal;
 
     // Chamando métodos do objeto Empresa_Solar
